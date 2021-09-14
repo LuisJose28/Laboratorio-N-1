@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Programa: GalonesaLitros.c */
+/* Programa: Temperatura.c */
 
 int main()
 {
