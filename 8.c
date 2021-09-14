@@ -17,7 +17,8 @@ int main()
     //Se calcula el pago mensual
     pagoMensual = ((pagoHora * HORAS_SEMANALES) * 4);
 
-    printf("\nSu salario Mensual seria de: %.2f", pagoMensual);
+    printf("\nSu salario Mensual seria de: %.2f dolares", pagoMensual);
     
     return 0;
 
+}
