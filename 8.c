@@ -1,27 +1,23 @@
 #include <stdio.h>
 
-/* Programa: SeguroEducativo.c */
+/* Programa: SalarioMensual.c */
 
 int main()
 {
     //bloque declarativa de constantes
-    #define SEGURO 0.0125
-    
-    //bloque declarativa de variables
-    float salarioMensual, calculoSeguro, salarioTotal;
+    #define HORAS_SEMANALES 45
 
+    //bloque declarativa de variables
+    float pagoHora, pagoMensual;
+    
     //Bloque de Instrucciones
-    printf("\nIntroduzca su salario mensual: ");
-    scanf("%f", &salarioMensual);
+    printf("Ingrese la cantidad de pago por Hora: ");
+    scanf("%f", &pagoHora);
+
+    //Se calcula el pago mensual
+    pagoMensual = ((pagoHora * HORAS_SEMANALES) * 4);
+
+    printf("\nSu salario Mensual seria de: %.2f", pagoMensual);
     
-    //Se calcula el descuento 
-    calculoSeguro = salarioMensual * SEGURO;
-    printf("\nEl descuento del seguro educativo seria: %.2f", calculoSeguro);
-    
-    //Se descuenta el calculo del seguro de tu salario mensual
-    salarioTotal = salarioMensual - calculoSeguro;
-    printf("\nSu salario total seria de: %.2f", salarioTotal);
-    
-   
     return 0;
 }
