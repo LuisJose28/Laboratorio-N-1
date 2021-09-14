@@ -16,7 +16,7 @@ int main()
     
     //Se calcula el impuesto a pagar
     calculoImpuesto = precioUno * IMPUESTO;
-    printf("\nEl descuento a aplicar seria de : %.2f", calculoImpuesto);
+    printf("\nEl impuesto a aplicar seria de : %.2f", calculoImpuesto);
     
     //Calcular total a pagar 
     TotalAPagar = precioUno + calculoImpuesto;
