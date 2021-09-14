@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Programa: PrecioDeUnProducto */
+/* Programa: PrecioDeUnProducto.c */
 
 int main()
 {
