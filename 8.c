@@ -20,4 +20,4 @@ int main()
     printf("\nSu salario Mensual seria de: %.2f", pagoMensual);
     
     return 0;
-}
+
